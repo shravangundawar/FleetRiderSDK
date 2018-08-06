@@ -77,8 +77,8 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-    s.source       = { :path => '.' }
-  # s.source       = { :git => "https://github.com/Alamofire/Alamofire.git", :tag => "#{s.version}" }
+  #  s.source       = { :path => '.' }
+    s.source       = { :git => "https://github.com/shravangundawar/FleetRiderSDK", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
